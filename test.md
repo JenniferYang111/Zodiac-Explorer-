@@ -76,6 +76,14 @@ I requested that no two spheres be identical. The cover should contain one disti
 
 ## Animation and Movement
 
+### Exploration: making the cover feel like space
+
+I wanted the cover to create a sense of mystery and invite users to explore before they reached the zodiac buttons. The original illustration represented all twelve signs, but its static, orderly arrangement felt too rigid for the atmosphere I had in mind. I introduced animation to make the cover feel more alive and connected to its starry setting.
+
+This took several revisions. Moving the whole image added motion, but the signs still behaved as one rectangular picture. I then asked for twelve separate glowing spheres. Their first arrangement was still too structured, so I requested scattered positions and independent paths. Watching them move revealed another issue: the spheres gathered near the center and overlapped. I followed up with a more specific request for them to bounce apart on contact while continuing to move slowly. The pace mattered to me because I wanted a gentle, playful sense of floating through space rather than a busy or hurried effect.
+
+This exploration helped me make my instructions more precise. Asking for animation alone did not communicate everything I wanted; I needed to describe how the graphics should be arranged, how they should travel, and what should happen when they met. Codex implemented the movement, while I judged each version against the mood and experience I was trying to create. The sequence below records those individual adjustments.
+
 ### Initial cover animation
 
 I requested animated cover artwork. The first animation moved the whole illustration together with a gentle floating motion and a subtle brightness effect.
