@@ -37,16 +37,13 @@ Tool used: OpenAI Codex.
 
 ### Key Prompts from My Conversation with AI
 
-These selected prompts show how I described my idea, directed major revisions, and asked Codex to upload the project. Longer prompts are excerpted verbatim.
+These five prompts summarize my main requests to Codex; they are condensed paraphrases, not verbatim quotations.
 
-- **Initial idea:** “This is a simple interactive web demo for people interested in star-sign facts. When someone clicks on any of the twelve zodiac-sign buttons, the experience should display that sign's corresponding personality traits on the screen.”
-- **Help visitors identify their sign:** “Could you add the corresponding date range for each zodiac sign? Cuz some people might not know which sign they belong to.”
-- **Separate selection and details:** “Place all zodiac‑sign options on the first page. After a user selects one sign, they go to another screen that displays only that sign’s information. Users may click a back button to go back to the first selection page.”
-- **Add a cover and entry point:** “This cover will feature imagery representing all twelve zodiac signs; these do not have to be the astrological symbols. Below the image, there will be a button labeled "Start Exploring". Once users click this button, they will move to the second page to select a zodiac sign.”
-- **Develop the animated visual design:** “The cover page should have a full starry sky background. The main zodiac graphics should be designed as glowing spherical icons that roll smoothly across the background. Their movement should be slow, natural, and playful, as if the zodiac balls are floating and rolling through space.”
-- **Refine movement and collisions:** “Each graphic should travel independently, with no fixed pattern or alignment.” In a later prompt: “No two spheres should be identical. When one sphere collides with another, they bounce away automatically.”
-- **Improve screen transitions:** “Use soft‑focus fades, subtle scale‑in and scale‑out effects, together with faint star‑particle motion during page shifts. The whole transition should feel smooth, dreamy and connected to outer‑space aesthetics.”
-- **Upload and publish the finished project:** “could you also commit and push to github project as a public repository”. I later clarified that I needed a publicly accessible website: “You need give the live website”.
+- **Initial idea:** Build an interactive webpage where clicking one of twelve zodiac signs displays its personality traits.
+- **Information and navigation:** Add date ranges, separate sign selection from details, and include a Back button.
+- **Cover design:** Add a starry cover with twelve unique, glowing zodiac spheres and a Start Exploring button.
+- **Animation and refinement:** Make the spheres drift independently and bounce on contact. Use soft fades, subtle zooms, and star particles between screens, without a pause button.
+- **Publishing:** Commit and push the project to a public GitHub repository, then publish a live website link.
 
 ### Implementation Choices
 
