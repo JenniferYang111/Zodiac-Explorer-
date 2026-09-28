@@ -22,25 +22,35 @@ When I tested the first version, the zodiac buttons appeared on the left and the
 
 I requested the corresponding date range for each sign because some visitors might know their birthday but not their zodiac sign. Dates were added to the selection buttons and the detail screen.
 
+After the revision, I checked the date ranges and confirmed that they had all been added and that the signs followed the correct zodiac sequence. At first, I expected the list to begin with January. After looking into it further, I learned that the traditional zodiac sequence begins with Aries in March rather than following the calendar year from January. This revision taught me something new about the subject, as well as improving the webpage.
+
 ## Page Structure and Navigation
 
 ### Separate selection and detail screens
 
 I requested a selection screen containing all twelve signs. Choosing a sign would open a separate screen showing only that sign’s information.
 
+The first version felt crowded because the choices and descriptions appeared together. I wanted users to focus on one task at a time, so I separated the screens to make the layout cleaner and easier to follow.
+
 ### Back button
 
 I requested a button on the detail screen so users could return to the selection screen and explore another sign.
 
+As I tried the expanded screen flow, I noticed the need for a clear way to move back and forth: adding screens alone did not provide the navigation I expected. I therefore asked for a Back button. This was a further requirement I identified while reviewing the layout changes.
+
 ### Cover page and Start Exploring button
 
 I requested a cover page before the selection screen, with a Start Exploring button below the cover image. Users would move from the cover to sign selection and then to the selected sign’s details.
+
+I also realized that the cover needed an obvious entry point, so I requested the Start Exploring button to guide users into the selection screen.
 
 ## Title
 
 ### Exact wording
 
 I requested that the cover title and main heading contain only the name Zodiac Explorer, with no period at the end.
+
+I noticed punctuation at the end of the heading and felt it was unnecessary for a website title, so I asked Codex to remove it.
 
 ## Art and Visual Design
 
@@ -82,6 +92,8 @@ I requested that the spheres no longer appear in rows or a structured formation.
 
 I requested that spheres automatically bounce away from one another when they collide.
 
+When I observed an early version of the moving spheres, they stayed concentrated near the center of the screen and overlapped one another. This did not match the scattered, floating effect I wanted. I asked for independent movement, collision responses that would make the spheres bounce apart, and a slow pace rather than fast motion.
+
 ### No pause button
 
 I explicitly requested that the cover not include a Pause animation button.
@@ -91,6 +103,22 @@ I explicitly requested that the cover not include a Pause animation button.
 ### Soft cosmic transitions
 
 I requested soft-focus fades, subtle scale-in and scale-out effects, and faint star-particle movement between screens. The transitions should feel smooth and dreamy, without harsh sliding jumps.
+
+## Final Retesting
+
+### Sign selection and navigation
+
+After completing the changes I could think of, I tested the website again. I expected each zodiac button to open its corresponding detail screen and the navigation controls to let me move between screens. In this round of testing, all twelve sign buttons and their screens opened normally, and I did not encounter problems with the navigation.
+
+### Page transitions
+
+I checked whether the transition effects interrupted navigation. The screens changed normally, and I did not encounter blank screens or frozen transitions during my testing.
+
+### Mobile experience
+
+I also opened the website on my phone. The layout differed from the desktop version, particularly the arrangement of the twelve zodiac buttons, because the phone screen had less space. The other interactive features still worked normally. This helped me distinguish a layout adjustment for a smaller screen from a functional problem.
+
+These results describe my own testing on a computer and a phone; they do not establish that the website has been tested on every device or browser.
 
 ## Remaining Layout Difference
 
