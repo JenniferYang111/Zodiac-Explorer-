@@ -1,0 +1,64 @@
+## Original Project Idea
+
+When someone clicks one of the twelve zodiac-sign buttons, the experience should display that sign’s corresponding personality traits.
+
+The webpage is intended for people interested in learning about zodiac signs.
+
+## Expected Design and Initial Test
+
+**Expected behavior:**
+I expected twelve zodiac-sign buttons arranged in two rows, with six buttons per row. Clicking a button would open a separate interface displaying only the selected sign’s personality traits.
+
+**Actual behavior:**
+When I tested the first version, the zodiac buttons appeared on the left and the selected sign’s personality traits appeared on the right. Both remained on the same screen instead of appearing on separate interfaces.
+
+## Modifications Requested During Development
+
+1. **Add zodiac date ranges.**
+   I requested the corresponding date range for each sign because some visitors might know their birthday but not their zodiac sign. Dates were added to the selection buttons and the detail screen.
+
+2. **Separate selection from sign details.**
+   I requested a selection screen containing all twelve signs. Choosing a sign would open a separate screen showing only that sign’s information.
+
+3. **Add a Back button.**
+   I requested a button on the detail screen so users could return to the selection screen and explore another sign.
+
+4. **Add an illustrated cover page.**
+   I requested cover imagery representing all twelve zodiac signs. The images did not need to be traditional astrological symbols.
+
+5. **Add “Start Exploring” navigation.**
+   I requested a button below the cover image that would take users to the selection screen. This established the flow: cover → sign selection → sign details.
+
+6. **Use the exact title “Zodiac Explorer.”**
+   I requested that the cover title and main heading contain only the name **Zodiac Explorer**, with no period at the end.
+
+7. **Blend the cover artwork into the background.**
+   I requested smoother image edges so the illustration would blend naturally into the surrounding background.
+
+8. **Animate the cover graphics.**
+   I requested animated artwork. The first animation moved the whole illustration together with a gentle floating motion and a subtle brightness effect.
+
+9. **Create a full starry-sky background.**
+   I requested that the cover use a starfield across the background.
+
+10. **Turn the zodiac graphics into glowing spheres.**
+    I requested individual spherical zodiac icons that would float and roll slowly through space, creating a natural and playful effect.
+
+11. **Remove the animation pause button.**
+    I explicitly requested that the cover not include a “Pause animation” button.
+
+12. **Replace the ordered arrangement with scattered movement.**
+    I requested that the spheres no longer appear in rows or a structured formation. Each sphere should start in a scattered position and travel independently, with changing directions rather than a fixed repeating path.
+
+13. **Ensure every sphere is unique.**
+    I requested that no two spheres be identical. The cover should contain one distinct sphere for each of the twelve zodiac signs.
+
+14. **Add collision responses.**
+    I requested that spheres automatically bounce away from one another when they collide.
+
+15. **Add cosmic page transitions.**
+    I requested soft-focus fades, subtle scale-in and scale-out effects, and faint star-particle movement between screens. The transitions should feel smooth and dreamy, without harsh sliding jumps.
+
+## Remaining Layout Difference
+
+The original expectation of two rows with six buttons per row has not yet been implemented. The current selection screen uses four buttons per row on desktop and fewer on smaller screens.
