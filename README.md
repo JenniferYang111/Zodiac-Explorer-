@@ -31,11 +31,24 @@ No installation, account, API key, or internet connection is needed to run the d
 - `dist/script.js`: twelve sign descriptions and selection behavior.
 - `dist/zodiac-cover.png`: AI-generated cover illustration representing all twelve zodiac signs.
 
-## AI collaboration
+## AI‑Collaboration
 
 Tool used: OpenAI Codex.
 
-The original idea above was supplied by the student as the initial implementation prompt. Codex generated the first version, including the layout, descriptions, and button behavior. The student's own evaluation, decisions, and subsequent prompts still need to be recorded below after hands-on testing.
+### Key Prompts from My Conversation with AI
+
+These selected prompts show how I described my idea, directed major revisions, and asked Codex to upload the project. Longer prompts are excerpted verbatim.
+
+- **Initial idea:** “This is a simple interactive web demo for people interested in star-sign facts. When someone clicks on any of the twelve zodiac-sign buttons, the experience should display that sign's corresponding personality traits on the screen.”
+- **Help visitors identify their sign:** “Could you add the corresponding date range for each zodiac sign? Cuz some people might not know which sign they belong to.”
+- **Separate selection and details:** “Place all zodiac‑sign options on the first page. After a user selects one sign, they go to another screen that displays only that sign’s information. Users may click a back button to go back to the first selection page.”
+- **Add a cover and entry point:** “This cover will feature imagery representing all twelve zodiac signs; these do not have to be the astrological symbols. Below the image, there will be a button labeled "Start Exploring". Once users click this button, they will move to the second page to select a zodiac sign.”
+- **Develop the animated visual design:** “The cover page should have a full starry sky background. The main zodiac graphics should be designed as glowing spherical icons that roll smoothly across the background. Their movement should be slow, natural, and playful, as if the zodiac balls are floating and rolling through space.”
+- **Refine movement and collisions:** “Each graphic should travel independently, with no fixed pattern or alignment.” In a later prompt: “No two spheres should be identical. When one sphere collides with another, they bounce away automatically.”
+- **Improve screen transitions:** “Use soft‑focus fades, subtle scale‑in and scale‑out effects, together with faint star‑particle motion during page shifts. The whole transition should feel smooth, dreamy and connected to outer‑space aesthetics.”
+- **Upload and publish the finished project:** “could you also commit and push to github project as a public repository”. I later clarified that I needed a publicly accessible website: “You need give the live website”.
+
+### Implementation Choices
 
 Implementation choices in this first version:
 
