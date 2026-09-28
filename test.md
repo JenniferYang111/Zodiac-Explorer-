@@ -1,103 +1,97 @@
-Original Project Idea
+# Zodiac Explorer: Testing and Revisions
+
+## Original Project Idea
 
 When someone clicks one of the twelve zodiac-sign buttons, the experience should display that sign’s corresponding personality traits.
 
 The webpage is intended for people interested in learning about zodiac signs.
 
+## Expected Design and Initial Test
 
-Expected Design and Initial Test
-
-Expected behavior
+### Expected behavior
 
 I expected twelve zodiac-sign buttons arranged in two rows, with six buttons per row. Clicking a button would open a separate interface displaying only the selected sign’s personality traits.
 
-Actual behavior
+### Actual behavior
 
 When I tested the first version, the zodiac buttons appeared on the left and the selected sign’s personality traits appeared on the right. Both remained on the same screen instead of appearing on separate interfaces.
 
+## Content
 
-Content
-
-Zodiac date ranges
+### Zodiac date ranges
 
 I requested the corresponding date range for each sign because some visitors might know their birthday but not their zodiac sign. Dates were added to the selection buttons and the detail screen.
 
+## Page Structure and Navigation
 
-Page Structure and Navigation
-
-Separate selection and detail screens
+### Separate selection and detail screens
 
 I requested a selection screen containing all twelve signs. Choosing a sign would open a separate screen showing only that sign’s information.
 
-Back button
+### Back button
 
 I requested a button on the detail screen so users could return to the selection screen and explore another sign.
 
-Cover page and Start Exploring button
+### Cover page and Start Exploring button
 
 I requested a cover page before the selection screen, with a Start Exploring button below the cover image. Users would move from the cover to sign selection and then to the selected sign’s details.
 
+## Title
 
-Title
-
-Exact wording
+### Exact wording
 
 I requested that the cover title and main heading contain only the name Zodiac Explorer, with no period at the end.
 
+## Art and Visual Design
 
-Art and Visual Design
-
-Imagery representing all twelve signs
+### Imagery representing all twelve signs
 
 I requested cover imagery representing all twelve zodiac signs. The images did not need to be traditional astrological symbols.
 
-Artwork blended into the background
+### Artwork blended into the background
 
 I requested smoother image edges so the cover illustration would blend naturally into the surrounding background.
 
-Full starry-sky background
+### Full starry-sky background
 
 I requested that the cover use a starfield across the background.
 
-Glowing spherical icons
+### Glowing spherical icons
 
 I requested that the zodiac graphics become individual glowing spheres, creating a visual theme of zodiac balls floating through space.
 
-Unique zodiac graphics
+### Unique zodiac graphics
 
 I requested that no two spheres be identical. The cover should contain one distinct sphere for each of the twelve zodiac signs.
 
+## Animation and Movement
 
-Animation and Movement
-
-Initial cover animation
+### Initial cover animation
 
 I requested animated cover artwork. The first animation moved the whole illustration together with a gentle floating motion and a subtle brightness effect.
 
-Slow floating and rolling
+### Slow floating and rolling
 
 I then requested that the individual zodiac spheres float and roll slowly through space, creating a natural and playful effect.
 
-Scattered, independent movement
+### Scattered, independent movement
 
 I requested that the spheres no longer appear in rows or a structured formation. Each sphere should start in a scattered position and travel independently, with changing directions rather than a fixed repeating path.
 
-Collision responses
+### Collision responses
 
 I requested that spheres automatically bounce away from one another when they collide.
 
-No pause button
+### No pause button
 
 I explicitly requested that the cover not include a Pause animation button.
 
+## Page Transitions
 
-Page Transitions
-
-Soft cosmic transitions
+### Soft cosmic transitions
 
 I requested soft-focus fades, subtle scale-in and scale-out effects, and faint star-particle movement between screens. The transitions should feel smooth and dreamy, without harsh sliding jumps.
 
-
-Remaining Layout Difference
+## Remaining Layout Difference
 
 The original expectation of two rows with six buttons per row has not yet been implemented. The current selection screen uses four buttons per row on desktop and fewer on smaller screens.
