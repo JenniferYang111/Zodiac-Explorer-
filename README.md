@@ -2,6 +2,11 @@
 
 A small English-language interactive website for people interested in zodiac signs.
 
+## Link
+
+1. GitHub Repository: [https://github.com/JenniferYang111/Zodiac-Explorer-](https://github.com/JenniferYang111/Zodiac-Explorer-)
+2. Live website: [https://jenniferyang111.github.io/Zodiac-Explorer-/](https://jenniferyang111.github.io/Zodiac-Explorer-/)
+
 ## Original idea
 
 “This is a simple interactive web demo for people interested in star-sign facts. When someone clicks on any of the twelve zodiac-sign buttons, the experience should display that sign's corresponding personality traits on the screen.”
