@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the twelve zodiac signs and their traditional personality traits.">
+  <title>Zodiac Explorer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23101729'/%3E%3Cpath d='M16 4L19 13L28 16L19 19L16 28L13 19L4 16L13 13Z' fill='%23edcc85'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="cover-screen" class="cover" aria-labelledby="cover-title">
+      <div class="starfield" id="starfield" aria-hidden="true"></div>
+      <h1 id="cover-title">Zodiac Explorer</h1>
+      <div class="zodiac-space" id="zodiac-space" role="img" aria-label="Twelve glowing zodiac spheres floating through a starry sky, depicting a ram, bull, twins, crab, lion, maiden, scales, scorpion, archer, sea-goat, water bearer, and fish."></div>
+      <button id="start-button" class="start-button" type="button">Start Exploring</button>
+    </section>
+    <div id="selection-screen" hidden>
+    <button id="cover-back-button" class="back-button" type="button">← Back to cover</button>
+    <header>
+      <p class="eyebrow"><span aria-hidden="true">✧</span> A LITTLE COSMIC CURIOSITY</p>
+      <h1 id="selection-title" tabindex="-1">Zodiac Explorer</h1>
+      <p class="intro">Twelve signs. Twelve ways to see yourself.<br>Choose a sign to explore its traditional personality traits.</p>
+    </header>
+    <div class="explorer">
+      <section aria-labelledby="choose-heading">
+        <div class="section-label"><h2 id="choose-heading">Choose your sign</h2><span>01 — 12</span></div>
+        <div class="sign-grid" id="signs"></div>
+        <p class="date-note">Find your birthday in the ranges above. These are approximate Western zodiac dates; dates near a sign change can vary by birth year and time.</p>
+      </section>
+    </div>
+    </div>
+    <section id="detail-screen" hidden aria-label="Selected zodiac sign">
+      <button id="back-button" class="back-button" type="button">← Back to all signs</button>
+      <div class="reading">
+        <div class="reading-top"><span class="eyebrow">YOUR COSMIC SNAPSHOT</span><span aria-hidden="true">✦</span></div>
+        <div id="reading-content">
+          <div class="big-symbol" aria-hidden="true">✧</div>
+          <p class="element">THE ZODIAC</p>
+          <h2 id="reading-title">Every sign has a story.</h2>
+          <p class="description">Pick any of the twelve signs to discover the qualities traditionally associated with it.</p>
+          <div class="empty-note">Your exploration starts with a click.</div>
+        </div>
+      </div>
+    </section>
+    <footer><span aria-hidden="true">✧</span> For curiosity, not certainty. Astrology is for entertainment and is not a scientific measure of personality.</footer>
+    <noscript>Please enable JavaScript to select a zodiac sign and view its traits.</noscript>
+  </main>
+</body>
+</html>
+
